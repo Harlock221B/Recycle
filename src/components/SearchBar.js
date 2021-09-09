@@ -1,17 +1,17 @@
 import React, { Component } from "react";
 import { StyleSheet, View } from "react-native";
 
-function Senha(props) {
+function SearchBar(props) {
   return <View style={[styles.container, props.style]}></View>;
 }
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: "rgba(255,255,255,1)",
-    borderRadius: 15,
-    borderWidth: 1,
-    borderColor: "rgba(199,195,195,1)"
+    backgroundColor: "#E6E6E6",
+    borderWidth: 0,
+    borderColor: "#000000",
+    borderRadius: 19
   }
 });
 
-export default Senha;
+export default SearchBar;
